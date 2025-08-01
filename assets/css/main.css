@@ -1712,7 +1712,7 @@ input, select, textarea {
 			padding-left: 0;
 			margin: 0 0 0 0.5em;
 		}
-
+s
 			ul.actions li:first-child {
 				margin-left: 0;
 			}
@@ -2187,5 +2187,17 @@ input, select, textarea {
 				padding-left: 0.5em;
 				margin-left: 0.5em;
 			}
+			#profile 			.profile-img {
+				background-color: #f4eada; /* Soft beige background */
+				padding: 10px;
+				width: 100%;
+				max-width: 250px;
+				height: auto;
+				object-fit: cover;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+				display: block;
+				margin: 0 auto;
+			}
+
 
 		}
