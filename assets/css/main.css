@@ -2198,6 +2198,33 @@ s
 				display: block;
 				margin: 0 auto;
 			}
+			.intro-container {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				}
 
+				.intro-text {
+				flex: 1;
+				min-width: 250px;
+				}
+
+				.intro-photo {
+				flex: 1;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				min-width: 250px;
+				}
+
+				.profile-img {
+				max-width: 100%;
+				height: auto;
+				background-color: #f4eada;
+				padding: 10px;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+				object-fit: cover;
+				}
 
 		}
